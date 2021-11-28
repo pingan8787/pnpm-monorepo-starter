@@ -4,6 +4,7 @@
   "description": "pnpm-monorepo-starter",
   "main": "index.js",
   "scripts": {
+    "dev": "pnpm dev:*",
     "dev:vue": "pnpm serve --filter \"@pnpm-monorepo-starter/vue\"",
     "dev:vue3": "pnpm dev --filter \"@pnpm-monorepo-starter/vue3\""
   },

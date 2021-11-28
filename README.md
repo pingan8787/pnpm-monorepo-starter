@@ -32,7 +32,7 @@ pnpm install react react-dom -w
 ```json
 {
     "name": "@pnpm-monorepo-starter/vue",
-    // ...
+    /* ... */
 }
 ```
 
@@ -57,7 +57,7 @@ npm init
 ```json
 {
     "name": "@pnpm-monorepo-starter/utils",
-    // ...
+    /* ... */
 }
 ```
 
@@ -95,13 +95,13 @@ export default {
         "dev:vue": "pnpm serve --filter \"@pnpm-monorepo-starter/vue\"",
         "dev:vue3": "pnpm dev --filter \"@pnpm-monorepo-starter/vue3\""
     },
-    // ...
+    /* ... */
 }
 ```
 
 其中 `dev:vue` 命令的内容包括：
 - `pnpm serve` 为执行该包里面的命令，对应该子包中 `package.json` 中 `scripts` 的命令。
-- ``--filter \"@pnpm-monorepo-starter/vue\"` 表示只对指定的子包有效。
+- `--filter \"@pnpm-monorepo-starter/vue\"` 表示只对指定的子包有效。
 
 ## 二、拓展内容
 ### 1. 项目增加 ESLint 配置
@@ -113,7 +113,6 @@ pnpm install eslint --save-dev
 // 初始化 ESLint 配置文件
 npx eslint --init
 ```
-
 
 ## 三、拓展阅读
 1. [使用 pnpm 构建 Monorepo 项目](https://zhuanlan.zhihu.com/p/373935751)
