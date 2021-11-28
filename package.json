@@ -1,0 +1,24 @@
+{
+  "name": "pnpm-monorepo-starter",
+  "version": "1.0.0",
+  "description": "pnpm-monorepo-starter",
+  "main": "index.js",
+  "scripts": {
+    "dev:vue": "pnpm serve --filter \"@pnpm-monorepo-starter/vue\"",
+    "dev:vue3": "pnpm dev --filter \"@pnpm-monorepo-starter/vue3\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pingan8787/pnpm-monorepo-starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pingan8787/pnpm-monorepo-starter/issues"
+  },
+  "homepage": "https://github.com/pingan8787/pnpm-monorepo-starter#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "dayjs": "^1.10.7"
+  }
+}
